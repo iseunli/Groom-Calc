@@ -1,0 +1,85 @@
+html {
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(19,18,19,1) 89%, rgba(42,30,42,1) 97%, rgba(70,45,69,1) 100%); 
+ }
+
+html, body {
+    padding: 0;
+    margin: 20;
+  }
+
+
+  h3.nameforcritiries {
+    font-size: 20px;
+    color: rgb(45, 18, 49);
+  }
+
+.grid-container__container {
+    display: grid;
+    grid-template-columns: 27% 45% ;
+  }
+
+  .calculator {
+    background-color: #f3f2f5;
+    height: 1050px;
+    padding: 6px 40px;
+    border-radius: 6px;
+    box-shadow: 0 0 15px #d2b8df; 
+    padding: 10px;
+  }
+  
+  .calculator.calculator__your-project {
+    grid-column: 2 / 3;
+  }
+
+  .center 
+  {
+    text-align: center;
+  }
+  
+  h3.price {
+    font-size: 42px;
+    color: #d2b8df;
+    text-align: center;
+    padding: 50px 0px
+  }
+  
+ .price_title{
+    font-size: 42px;
+    color: #d2b8df;
+    text-align: center;
+ }
+
+textarea{
+    columns: 500px;
+
+}
+
+ button.button-style {
+    display: block;
+    padding: 12px 12px;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-left: 43%;
+    border: none;
+    border-radius: 6px;
+    color: rgb(45, 18, 49);
+    font-size: 18px;
+  }
+  
+  button.button-style--prpl {
+    background: rgb(176, 127, 199);
+    -webkit-box-shadow: 0px 2px 0px 1px rgb(156, 70, 196);
+    -moz-box-shadow: 0px 2px 0px 1px rgb(156, 70, 196);
+    box-shadow: 0px 2px 0px 1px rgb(156, 70, 196);
+  }
+  
+  select, input {
+    border: none;
+    background-color: #dfdfdf;
+    font-size: 14px;
+    color: #5b5b5b;
+    padding: 5px;
+  }
+
+  

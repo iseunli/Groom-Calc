@@ -1,0 +1,72 @@
+<html>
+<head>
+     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Calculator for Groom</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2 class="price_title center">Welcome, Future Bride!</h2>
+    <div class="grid-container__container">
+        <div class="calculator calculator__your-project">
+            <br>
+         <h2 class = "center">Lets count Groom's Price!</h2>
+         <h3 class= "nameforcritiries">Name of your Groom:</h3>
+            <input type="text" id="groom-name" name="Groom name">
+            
+<br>
+                 <h3 class= "nameforcritiries">Starting Bid:</h3>
+            <input type="number" id="starting-bid" name="Starting bid">
+
+<br>
+
+         <h3 class= "nameforcritiries">Choose Groom's education:</h3>
+        <select id="groom-education">
+          <option  value = "1.5">Undergraduate degree</option>
+          <option  value = "1.2">College degree</option>
+          <option  value = "1.05">High school degree</option>
+          <option  value = "0.9">Middle school degree</option>
+        </select>
+
+<br>
+
+         <h3 class= "nameforcritiries">Choose Bride's family net worth:</h3>
+        <select id="family-net">
+          <option value = "2">More than 100,000$</option>
+          <option value = "1.5">Between 50,000$ and 100,000$</option>
+          <option value = "1.2">Less than 50,000$</option>
+        </select>
+    
+<br>
+          <h3 class= "nameforcritiries">Groom's skills:</h3>
+         <input type="checkbox" value="100" class="skills"> Playing on dombra <br>
+         <input type="checkbox" value="200" class="skills"> Good cook<br>
+         <input type="checkbox" value="150" class="skills"> Easygoing character<br>
+         <input type="checkbox" value="100" class="skills"> Sings well<br>
+
+<br>
+         <h3 class= "nameforcritiries">Groom's age:</h3>
+         <input type="radio" value="1.5" name="age"> 18-23<br>
+         <input type="radio" value="1.2" name="age"> 24-27<br>
+         <input type="radio" value="0.95" name="age"> 28+<br>
+<br>         
+         <h3 class= "nameforcritiries">Groom's reputation:</h3> 
+         <input type="checkbox" value="0.85" class="reputation"> Gossips about his parent's attitude<br>
+         <input type="checkbox" value="0.9" class="reputation"> Gossips about his character<br>
+         <input type="checkbox" value="200" class="reputation"> General gossips around his person<br>
+<br>  
+        <divs>
+        <h3 class= "nameforcritiries">Love letter for Groom:</h3><br>
+        <textarea id="love_letter" maxlength = "500" cols="40" rows="4"></textarea>
+        </div>
+<br> 
+<br> 
+</div>
+</div>
+        <button id="submit" class="button-style button-style--prpl">Calculate Price</button>
+        <h3 id="price" class="price">...$(drum roll)</h3>
+    
+
+    <script src="javascript.js"></script>
+</body>
+</html>
